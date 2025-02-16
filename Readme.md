@@ -8,7 +8,8 @@ e.g:
 
 income-calculator --help
 
-income-calculator --income 500000 --currency MWK --deductions 5%,5000
+income-calculator -income 500000 -currency MWK -deductions 5%,5000
+income-calculator -i 1_000_000 -c MWK -d 5_000,5%
 
 ### Income
 Supports any float64 value
