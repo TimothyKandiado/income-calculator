@@ -27,7 +27,7 @@ func main() {
 	flag.StringVar(&currency, "currency", defaultCurrency, currencyUsage)
 	flag.StringVar(&currency, "c", defaultCurrency, currencyUsage+"(shorthand)")
 
-	flag.Var(&deductions, "deduction", deductionsUsage)
+	flag.Var(&deductions, "deductions", deductionsUsage)
 	flag.Var(&deductions, "d", deductionsUsage+"(shorthand)")
 
 	flag.Parse()
